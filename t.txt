@@ -1,0 +1,8 @@
+Downloading https://github.com/rvm/rvm/archive/1.29.12.tar.gz
+Downloading https://github.com/rvm/rvm/releases/download/1.29.12/1.29.12.tar.gz.asc
+GPG verified '/usr/share/rvm/archives/rvm-1.29.12.tgz'
+Could not extract RVM sources.
+Downloading https://bitbucket.org/mpapis/rvm/get/1.29.12.tar.gz
+Downloading https://bitbucket.org/mpapis/rvm/downloads/1.29.12.tar.gz.asc
+GPG verified '/usr/share/rvm/archives/rvm-1.29.12.tgz'
+Could not extract RVM sources.

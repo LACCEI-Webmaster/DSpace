@@ -1,0 +1,1000 @@
+ 1034  ls src/
+ 1035  ls node_modules/
+ 1036  cd ..
+ 1037  ls
+ 1038  cd front-react/
+ 1039  ls
+ 1040  nano app.yaml
+ 1041  history 
+ 1042  gcloud auth list
+ 1043  gcloud config list project
+ 1044  gcloud info
+ 1045  gcloud auth list
+ 1046  gcloud config list project
+ 1047  gcloud config set project front-react-herramientas-is
+ 1048  gcloud info
+ 1049  ls
+ 1050  gcloud app deploy
+ 1051  gcloud app browse
+ 1052  ls
+ 1053  npm i
+ 1054  npm run build
+ 1055  npm install -g serve
+ 1056  sudo npm install -g serve
+ 1057  serve -s build
+ 1058  history 
+ 1059  ls
+ 1060  ls build/
+ 1061  gcloud app deploy
+ 1062  mv app.yaml build/
+ 1063  ls
+ 1064  cd build/
+ 1065  ls
+ 1066  la static/
+ 1067  gcloud app deploy
+ 1068  cd PycharmProjects/
+ 1069  ls
+ 1070  ls -l
+ 1071  cd back/
+ 1072  ls
+ 1073  nano requirements.txt 
+ 1074  gcloud auth list
+ 1075  gcloud config list project
+ 1076  cloudshell
+ 1077  touch app.yaml
+ 1078  python
+ 1079  python3
+ 1080  gcloud app deploy
+ 1081  history 
+ 1082  history |grep git
+ 1083  cd WebstormProjects/front-react/
+ 1084  gcloud app deploy
+ 1085  ls
+ 1086  cd build/
+ 1087  gcloud app deploy
+ 1088  gcloud app logs tail -s default
+ 1089  gcloud app browse
+ 1090  cd ..
+ 1091  npm i
+ 1092  npm run build
+ 1093  sudo npm install -g serve
+ 1094  serve -s build
+ 1095  ls -l
+ 1096  cd build/
+ 1097  ls -la
+ 1098  cd ..
+ 1099  ls -la
+ 1100  cd build/\
+ 1101  cd build/
+ 1102  ls -la
+ 1103  nano app.yaml
+ 1104  gcloud app deploy
+ 1105  gcloud app logs tail -s default
+ 1106  ls
+ 1107  gcloud info
+ 1108  nano /home/dantexier/.config/gcloud/logs/2021.07.26/21.19.16.350712.log 
+ 1109  ls
+ 1110  nano app.yaml 
+ 1111  gcloud app deploy
+ 1112  gcloud app logs tail -s default
+ 1113  gcloud --help
+ 1114  gcloud init
+ 1115  cd ..
+ 1116  cd b
+ 1117  ls
+ 1118  gcloud app deploy
+ 1119  cd /opt/Zotero/
+ 1120  ./zotero
+ 1121  cd Downloads/
+ 1122  pdftk bbb.pdf cat 5-6 output bibliografia.pdf
+ 1123  pdftk Componente.pdf cat 1-4 output cuerpo.pdf
+ 1124  pdftl cuerpo.pdf bibliografia.pdf cat output UNAL.pdf
+ 1125  pdftk cuerpo.pdf bibliografia.pdf cat output UNAL.pdf
+ 1126  nano /etc/ssh/ssh_config
+ 1127  sudo nano /etc/ssh/ssh_config
+ 1128  sudo service sshd restart
+ 1129  service sshd restart
+ 1130  history 
+ 1131  sudo nano /etc/ssh/ssh_config
+ 1132  ping linux putty fatal error no supported authentication methods available (server sent publickey)
+ 1133  ping ec2-3-128-227-80.us-east-2.compute.amazonaws.com
+ 1134  ping ec2-18-222-119-236.us-east-2.compute.amazonaws.com
+ 1135  cd /home/dantexier/Downloads/
+ 1136  ls
+ 1137  pdftk aa.pdf cat 1-4 output cuerpo.pdf
+ 1138  pdftk ss.pdf cat 5-6 output bbb.pdf
+ 1139  pdftk cuerpo.pdf bbb.pdf cat output texier_componente.pdf
+ 1140  cd /opt/Zotero/
+ 1141  ./zotero
+ 1142  echo "$PS1"
+ 1143  cd /opt/WebStorm-203.7717.59/
+ 1144  cd bin/
+ 1145  ./webstorm.sh 
+ 1146  java --version
+ 1147  cd pycharm-community-2021.1.3/
+ 1148  cd bin/
+ 1149  ./pycharm.sh 
+ 1150  history 
+ 1151  history |grep python
+ 1152  cd ../../PycharmProjects/pythonProject
+ 1153  ls
+ 1154  cd ../../
+ 1155  ls
+ 1156  cd extractTextPDF/
+ 1157  ls
+ 1158  cd ..
+ 1159  ls
+ 1160  cd PycharmProjects/
+ 1161  ls
+ 1162  cd ExtraccionTextoPDF/
+ 1163  ls
+ 1164  cd ..
+ 1165  ls -l
+ 1166  cd ExtraccionTextoPDF/
+ 1167  ls ../back/
+ 1168  git init
+ 1169  git add README.md
+ 1170  echo "# TextExtractPDF" >> README.md
+ 1171  git add .
+ 1172  git commit -m "first commit"
+ 1173  git branch -M main
+ 1174  git remote add origin https://github.com/dantexier/TextExtractPDF.git
+ 1175  git push -u origin main
+ 1176  gedit .gitignore
+ 1177  git status
+ 1178  git .\
+ 1179  git .
+ 1180  git add .
+ 1181  git status
+ 1182  ls
+ 1183  git commit -m "first commit"
+ 1184  git branch -M main
+ 1185  git remote add origin https://github.com/dantexier/TextExtractPDF.git
+ 1186  git push -u origin main
+ 1187  cd ..
+ 1188  ls
+ 1189  cd TextExtractPDF/
+ 1190  ls
+ 1191  nano .gitignore 
+ 1192  git status
+ 1193  git init
+ 1194  git status
+ 1195  git commit -m "first commit"
+ 1196  git branch -M main
+ 1197  git add .
+ 1198  git commit -m "first commit"
+ 1199  git branch -M main
+ 1200  git remote add origin https://github.com/dantexier/TextExtractPDF.git
+ 1201  git push -u origin main
+ 1202  cd pycharm-community-2021.1.3/bin/
+ 1203  ./pycharm.sh 
+ 1204  git status
+ 1205  cd ..
+ 1206  cd PycharmProjects/
+ 1207  ls
+ 1208  cd TextExtractPDF/
+ 1209  git status
+ 1210  cd pycharm-community-2021.1.3/bin/
+ 1211  ./pycharm.sh 
+ 1212  df
+ 1213  cd /opt/
+ 1214  wget https://apache.dattatec.com/tomcat/tomcat-9/v9.0.50/bin/apache-tomcat-9.0.50.tar.gz 
+ 1215  tar -xzvf apache-tomcat-9.0.50.tar.gz
+ 1216  ls
+ 1217  rm apache-tomcat-9.0.50.tar.gz 
+ 1218  cd apache-tomcat-9.0.50/
+ 1219  ls
+ 1220  nano conf/server.xml 
+ 1221  cd bin/
+ 1222  ./shutdown.sh 
+ 1223  ./startup.sh 
+ 1224  ./shutdown.sh 
+ 1225  sudo ./startup.sh 
+ 1226  ls
+ 1227  ls -l
+ 1228  df
+ 1229  cd /home/dantexier/eclipse-workspace/
+ 1230  ls
+ 1231  git clone https://github.com/LACCEI/DSpace.git 
+ 1232  ls
+ 1233  ls DSpace/
+ 1234  sudo dmidecode --type memory | less
+ 1235  free -h
+ 1236  vmstat -s -S M
+ 1237  1
+ 1238  vmstat -s -S M
+ 1239  ls
+ 1240  cd DSpace/
+ 1241  ls
+ 1242  mvn package
+ 1243  sudo apt-get install maven
+ 1244  sudo apt-get install --no-install-recommends postgresql postgresql-contrib
+ 1245  sudo apt-get install ant ant-contrib
+ 1246  ant -version
+ 1247  java -version
+ 1248  mvn --version
+ 1249  psql --version
+ 1250  echo $JAVA_HOME
+ 1251  nano ~/.bashrc 
+ 1252  export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
+ 1253  echo $JAVA_HOME
+ 1254  ls /usr/lib/jvm/java-11-openjdk-amd64/
+ 1255  java --version
+ 1256  export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/jre
+ 1257  nano ~/.bashrc 
+ 1258  echo $JAVA_HOME
+ 1259  sudo useradd -d /home/dspace -m -s /bin/bash dspace
+ 1260  sudo passwd dspace
+ 1261  sudo su -c "createuser -d -P -R -S dspace" postgres
+ 1262  sudo su -c "createdb -U dspace -O dspace -E UNICODE dspace -h localhost" postgres
+ 1263  sudo -u postgres psql
+ 1264  psql -U postgres -h localhost dspace -c "CREATE EXTENSION pgcrypto;"
+ 1265  sudo -u postgres psql postgres
+ 1266  psql -U postgres -h localhost dspace -c "CREATE EXTENSION pgcrypto;"
+ 1267  sudo nano /etc/postgresql/12/main/pg_hba.conf
+ 1268  sudo nano /etc/postgresql/10/main/postgresql.conf
+ 1269  sudo nano /etc/postgresql/12/main/postgresql.conf
+ 1270  sudo /etc/init.d/postgresql status
+ 1271  sudo /etc/init.d/postgresql stop
+ 1272  sudo /etc/init.d/postgresql start
+ 1273  sudo /etc/init.d/postgresql status
+ 1274  ls
+ 1275  mvn package
+ 1276  echo $JAVA_HOME
+ 1277  cd /opt/
+ 1278  ls
+ 1279  cd eclipses/
+ 1280  ls
+ 1281  tar -xzvf eclipse-java-2021-06-R-linux-gtk-x86_64.tar.gz 
+ 1282  ls
+ 1283  rm eclipse-java-2021-06-R-linux-gtk-x86_64.tar.gz 
+ 1284  cd dspace-source-laccei/
+ 1285  ls
+ 1286  ./eclipse 
+ 1287  ls /tar -xzvf apache-tomcat-9.0.50.tar.gz
+ 1288  ls /usr/lib/jvm/java-11-openjdk-amd64/jre/
+ 1289  sudo ls /usr/lib/jvm/java-11-openjdk-amd64/jre/
+ 1290  sudo ls /usr/lib/jvm/java-11-openjdk-amd64/bin/
+ 1291  java
+ 1292  java -version
+ 1293  export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin/
+ 1294  echo $JAVA_HOME
+ 1295  mvn package
+ 1296  ls /usr/lib/jvm/java-1.11.0-openjdk-amd64
+ 1297  find . /name jre
+ 1298  history |grep jre
+ 1299  sudo find . /name jre
+ 1300  sudo find . -name jre
+ 1301  sudo apt-search java
+ 1302  sudo apt search java
+ 1303  sudo apt search openjava
+ 1304  sudo apt install default-jre
+ 1305  sudo find . -name default-jre
+ 1306  sudo find . -name java
+ 1307  sudo find / -name java
+ 1308  sudo find / -name jre
+ 1309  sudo find / -name openjdk
+ 1310  java -version
+ 1311  mvn package
+ 1312  history 
+ 1313  sudo apt search openjava
+ 1314  sudo apt search openjdk
+ 1315  java -version
+ 1316  sudo apt install openjdk-11-jre-headless
+ 1317  mvn package
+ 1318  mvn -version
+ 1319  java
+ 1320  history |grep bash
+ 1321  nano ~/.bashrc 
+ 1322  echo $JAVA_HOME
+ 1323  cd eclipse-workspace/DSpace/
+ 1324  mvn package
+ 1325  nano ~/.bashrc 
+ 1326  df
+ 1327  java
+ 1328  cd eclipse-workspace/DSpace/
+ 1329  mvn --version
+ 1330  mvn package
+ 1331  sudo apt install openjdk-8-jre-headless
+ 1332  update-java-alternatives --list
+ 1333  sudo update-java-alternatives --set /path/to/java/version
+ 1334  sudo update-java-alternatives 
+ 1335  sudo update-java-alternatives -l
+ 1336  sudo update-java-alternatives -s
+ 1337  sudo update-java-alternatives -s /path/to/java/version
+ 1338  sudo update-alternatives --config java
+ 1339  java -version
+ 1340  mvn package
+ 1341  sudo update-alternatives --config java
+ 1342  mvn package
+ 1343  sudo update-alternatives
+ 1344  sudo update-alternatives --display java
+ 1345  ls /usr/lib/jvm/java-8-openjdk-amd64/jre/
+ 1346  ls /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/
+ 1347  sudo update-alternatives --config java
+ 1348  df
+ 1349  java -version
+ 1350  mvn --version
+ 1351  mvn -version
+ 1352  history 
+ 1353  update-java-alternatives --list
+ 1354  ls /usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java
+ 1355  ls /usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java/
+ 1356  which java
+ 1357  ls /usr/bin/java 
+ 1358  cd eclipse-workspace/DSpace/
+ 1359  sudo mvn package
+ 1360  history 
+ 1361  update-java-alternatives --list
+ 1362  sudo update-alternatives --config java
+ 1363  java --version
+ 1364  java -version
+ 1365  java -version\
+ 1366  java -version
+ 1367  java --version
+ 1368  mvn -version
+ 1369  cd /opt/
+ 1370  wget https://apache.zero.com.ar/maven/maven-3/3.3.9/source/apache-maven-3.3.9-src.tar.gz
+ 1371  tar xzvf apache-maven-3.3.9-src.tar.gz 
+ 1372  ls
+ 1373  cd apache-maven-3.3.9/
+ 1374  ls
+ 1375  nano README.md 
+ 1376  echo $JAVA_HOME
+ 1377  export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/
+ 1378  echo $JAVA_HOME
+ 1379  echo $PATH
+ 1380  export PATH=/opt/apache-maven-3.3.9/bin:$PATH
+ 1381  ls
+ 1382  cd bin
+ 1383  ls
+ 1384  find . /name bin
+ 1385  ls
+ 1386  cd apache-maven/
+ 1387  ls
+ 1388  nano README.txt 
+ 1389  cd ..
+ 1390  ls
+ 1391  ./mvn
+ 1392  mvn
+ 1393  nanno README.md 
+ 1394  nano README.md 
+ 1395  ls -l
+ 1396  cd ..
+ 1397  mv apache-maven-3.3.9/ mmmm/
+ 1398  ls
+ 1399  wget https://apache.zero.com.ar/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
+ 1400  history 
+ 1401  tar xzvf https://apache.zero.com.ar/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
+ 1402  tar xzvf apache-maven-3.3.9-bin.tar.gz 
+ 1403  ls
+ 1404  cd apache-maven-3.3.9/bin/
+ 1405  ls
+ 1406  echo $JAVA_HOME
+ 1407  echo $PATH
+ 1408  mvn
+ 1409  mvn -version
+ 1410  cd ..
+ 1411  mvn
+ 1412  mvn --version
+ 1413  mvn -version
+ 1414  ls
+ 1415  cd ..
+ 1416  ls
+ 1417  rm apache-maven-3.3.9-bin.tar.gz 
+ 1418  rm apache-maven-3.3.9-src.tar.gz 
+ 1419  ls
+ 1420  rm -r mmmm/
+ 1421  ls
+ 1422  history 
+ 1423  java -version
+ 1424  mvn --version
+ 1425  mvn -version
+ 1426  cd eclipse-workspace/DSpace/
+ 1427  mvn package
+ 1428  mvn -version
+ 1429  echo $JAVA_HOME
+ 1430  export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/
+ 1431  echo $JAVA_HOME
+ 1432  mvn -version
+ 1433  mvn package
+ 1434  nano pom.xml 
+ 1435  sudo apt-get remove maven
+ 1436  ls
+ 1437  maven
+ 1438  sudo apt-get update
+ 1439  sudo apt-get install maven
+ 1440  maven
+ 1441  mvn --version
+ 1442  mvn package
+ 1443  sudo apt-get remove maven
+ 1444  sudo apt-get remove maven2
+ 1445  mvn
+ 1446  wget https://apache.zero.com.ar/maven/maven-3/3.3.9/source/apache-maven-3.3.9-src.tar.gz
+ 1447  ls
+ 1448  rm apache-maven-3.3.9-src.tar.gz 
+ 1449  ls
+ 1450  history 
+ 1451  export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/
+ 1452  echo $JAVA_HOME
+ 1453  echo $PATH
+ 1454  cd /home/dantexier/eclipse-workspace/DSpace/
+ 1455  ls
+ 1456  cd dspace/config/
+ 1457  ls
+ 1458  cp local.cfg.EXAMPLE local.cfg
+ 1459  nano local.cfg
+ 1460  mvn -version
+ 1461  echo $JAVA_HOME
+ 1462  echo $PATH
+ 1463  export PATH=/opt/apache-maven-3.3.9/bin:$PATH
+ 1464  mvn -version
+ 1465  cd eclipse-workspace/DSpace/
+ 1466  mvn clean package
+ 1467  mvn package
+ 1468  export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/
+ 1469  mvn package
+ 1470  sudo apt-get install openjdk-8-jdk
+ 1471  apt-getdddd install openjdk-8-jdk openjdk-8-doc openjdk-8-jre-lib
+ 1472  history 
+ 1473  update-java-alternatives --list
+ 1474  sudo update-alternatives --config java
+ 1475  java
+ 1476  java -version
+ 1477  mvn package
+ 1478  history 
+ 1479  ls
+ 1480  cd dspace/target/
+ 1481  ls
+ 1482  cd dspace-installer/
+ 1483  ls
+ 1484  ant fresh_install
+ 1485  cd ..
+ 1486  mvn package
+ 1487  cd dspace/target/dspace-installer/
+ 1488  ant fresh_install
+ 1489  cd PycharmProjects/ls
+ 1490  cd PycharmProjects/
+ 1491  ls
+ 1492  cd back/
+ 1493  ls
+ 1494  nano main.py 
+ 1495  cd /opt/
+ 1496  ls
+ 1497  rm -r apache-tomcat-9.0.50/
+ 1498  sudo rm -r apache-tomcat-9.0.50/
+ 1499  wget https://apache.zero.com.ar/tomcat/tomcat-8/v8.5.69/bin/apache-tomcat-8.5.69.tar.gz 
+ 1500  tar -xzvf apache-tomcat-8.5.69.tar.gz
+ 1501  ls
+ 1502  rm apache-tomcat-8.5.69.tar.gz 
+ 1503  cd apache-tomcat-8.5.69/
+ 1504  ls
+ 1505  nano conf/server.xml 
+ 1506  ./bin/startup.sh 
+ 1507  ls logs/ 0l
+ 1508  ls logs/ -l
+ 1509  nano logs/catalina.out 
+ 1510  ./bin/shutdown.sh 
+ 1511  sudo ./bin/startup.sh 
+ 1512  ls /opt/
+ 1513  mvn package
+ 1514  history |grep mvn
+ 1515  history 
+ 1516  mvn -version
+ 1517  export PATH=/opt/apache-maven-3.3.9/bin:$PATH
+ 1518  mvn -version
+ 1519  echo $JAVA_HOME
+ 1520  mvn package
+ 1521  cd dspace/target/dspace-installer/
+ 1522  ls
+ 1523  ant fresh_install
+ 1524  ls /opt/install_folder_dspace/webapps/xmlui/
+ 1525  ./opt/install_folder_dspace/bin/dspace create-administrator
+ 1526  /opt/install_folder_dspace/bin/dspace create-administrator
+ 1527  cd /opt/install_folder_dspace/bin/
+ 1528  ./dspace create-administrator
+ 1529  sudo ./dspace create-administrator
+ 1530  ls -l
+ 1531  mvn -version
+ 1532  cd /home/dantexier/eclipse-workspace/DSpace/
+ 1533  ls
+ 1534  mvn package
+ 1535  cd dspace/target/dspace-installer/
+ 1536  ant fresh_install
+ 1537  cd ..
+ 1538  mvn package
+ 1539  cd dspace/target/dspace-installer/
+ 1540  ant fresh_install
+ 1541  ls
+ 1542  cd ..
+ 1543  cd /home/dantexier/eclipse-workspace/DSpace/
+ 1544  ls
+ 1545  find . -name |grep "Repository"
+ 1546  find . -name * |grep "Repository"
+ 1547  grep -lir "Repository" *
+ 1548  grep -lir "DSpace Repository" *
+ 1549  git status
+ 1550  mvn package
+ 1551  df
+ 1552  free -h
+ 1553  git status
+ 1554  free -h
+ 1555  cd /opt/eclipses/dspace-source-laccei/
+ 1556  ls
+ 1557  ./eclipse 
+ 1558  free -h
+ 1559  cd /opt/apache-tomcat-8.5.69/
+ 1560  ls
+ 1561  sudo ./bin/startup.sh 
+ 1562  ls webapps/
+ 1563  sudo ./bin/shutdown.sh 
+ 1564  cd ..
+ 1565  mv apache-tomcat-8.5.69/ tomcat/
+ 1566  ls
+ 1567  cd tomcat
+ 1568  cd webapps/
+ 1569  cp -r /opt/install_folder_dspace/webapps/* .
+ 1570  ls
+ 1571  rm -r jspui/
+ 1572  rm -r oai
+ 1573  rm -r rdf
+ 1574  rm -r rest/
+ 1575  rm -r sword
+ 1576  rm -r swordv2/
+ 1577  cd ..
+ 1578  nano conf/Catalina/localhost/xmlui.xml
+ 1579  sudo ./bin/startup.sh 
+ 1580  cd webapps/
+ 1581  cp -r /opt/install_folder_dspace/webapps/* .
+ 1582  cd ..
+ 1583  ps -aux|grep tomcat
+ 1584  sudo ./bin/shutdown.sh 
+ 1585  ps -aux|grep tomcat
+ 1586  sudo ./bin/shutdown.sh 
+ 1587  ps -aux|grep tomcat
+ 1588  sudo ./bin/startup.sh 
+ 1589  ps -aux|grep tomcat
+ 1590  sudo ./bin/shutdown.sh 
+ 1591  ps -aux|grep tomcat
+ 1592  sudo ./bin/shutdown.sh 
+ 1593  ps -aux|grep tomcat
+ 1594  sudo ./bin/shutdown.sh 
+ 1595  ps -aux|grep tomcat
+ 1596  kill -9 25690
+ 1597  sudo kill -9 25690
+ 1598  ps -aux|grep tomcat
+ 1599  sudo ./bin/startup.sh 
+ 1600  cd Downloads/LACCEI/LEIRD/
+ 1601  grep "Registration_Conference2021" -r
+ 1602  grep . "Registration_Conference2021"
+ 1603  grep
+ 1604  grep "Registration_Conference2021" -r .
+ 1605  grep "Registration" -r .
+ 1606  grep "Registration_" -r .
+ 1607  grep --help
+ 1608  grep "Registration_" -rn .
+ 1609  grep "Registration_" -r -n .
+ 1610  history |grep binance
+ 1611  history \
+ 1612  history 
+ 1613  history |more
+ 1614  cd ..
+ 1615  ls
+ 1616  history |grep binance
+ 1617  source botbinance/bin/activate
+ 1618  ls
+ 1619  cd botbinance/
+ 1620  ls
+ 1621  cd ..
+ 1622  cd robots/
+ 1623  ls
+ 1624  cd Python-TradingView-TA-Library/
+ 1625  ls
+ 1626  python bot.py 
+ 1627  python config.py 
+ 1628  pip install binance
+ 1629  python -m pip install --upgrade pip'
+ 1630  python -m pip install --upgrade pip
+ 1631  pip install binance.client
+ 1632  cd /home/dantexier/PycharmProjects/criptos/
+ 1633  ls
+ 1634  python bot.py 
+ 1635  ls
+ 1636  python bot_velas_emas.py 
+ 1637  pip install calc_signature
+ 1638  pip install hashing
+ 1639  python bot_velas_emas.py 
+ 1640  pip install coin
+ 1641  python bot_velas_emas.py 
+ 1642  python bot.py 
+ 1643  pip install binance
+ 1644  pip install binance.client
+ 1645  pip uninstall coin
+ 1646  pip install binance.client
+ 1647  python bot.py 
+ 1648  python bot_velas_emas.py 
+ 1649  pip install requests
+ 1650  python bot_velas_emas.py 
+ 1651  pip install hashing
+ 1652  pip install TA_Handler
+ 1653  pip install tradingview_ta
+ 1654  python bot.py 
+ 1655  pip install binance.client
+ 1656  pip install binance.enums
+ 1657  pip install binance
+ 1658  python bot.py 
+ 1659  pip install Client
+ 1660  pip install binance
+ 1661  pip install binance.client
+ 1662  pip install binance.enums
+ 1663  pip install binance
+ 1664  python bot.py 
+ 1665  history 
+ 1666  binance.clientpip install tradingview_ta
+ 1667  pip install tradingview_ta
+ 1668  python bot.py 
+ 1669  cd pycharm-community-2021.1.3/
+ 1670  cd bin/
+ 1671  ls
+ 1672  ./pycharm.sh 
+ 1673  cd ..
+ 1674  find / -name binance
+ 1675  sudo find / -name binance
+ 1676  ls -l /home/dantexier/botbinance/lib/python3.8/site-packages/binance
+ 1677  cd pycharm-community-2021.1.3/bin/
+ 1678  ./pycharm.sh 
+ 1679  cd pycharm-community-2021.1.3/
+ 1680  cd bin/\
+ 1681  cd bin/
+ 1682  ./pycharm.sh 
+ 1683  cd /opt/WebStorm-203.7717.59/bin/
+ 1684  ./webstorm.sh 
+ 1685  cd /home/dantexier/WebstormProjects/
+ 1686  ls
+ 1687  cd front-react/
+ 1688  ls
+ 1689  ls b
+ 1690  git status
+ 1691  ls build/
+ 1692  cd build/
+ 1693  ls
+ 1694  history |grep gcloud
+ 1695  brew
+ 1696  history 
+ 1697  cd /opt/eclipses/dspace-source-laccei/
+ 1698  ls
+ 1699  ./eclipse &
+ 1700  xs /opt/tomcat
+ 1701  cd /opt/tomcat
+ 1702  ls
+ 1703  cd bin/
+ 1704  ls
+ 1705  sudo ./startup.sh 
+ 1706  df
+ 1707  free -h
+ 1708  cd ..
+ 1709  cd webapps/
+ 1710  ls
+ 1711  rm -r sword
+ 1712  rm -r swordv2/
+ 1713  ls
+ 1714  gedit borrar.sh
+ 1715  ls
+ 1716  chmod 777 borrar.sh 
+ 1717  ls
+ 1718  ./borrar.sh 
+ 1719  ls
+ 1720  gedit borrar.sh
+ 1721  ./borrar.sh 
+ 1722  ls
+ 1723  cd ..
+ 1724  cd webapps/
+ 1725  sudo ../bin/shutdown.sh 
+ 1726  ps -aux|grep tomcat
+ 1727  sudo ../bin/startup.sh 
+ 1728  ps -aux|grep tomcat
+ 1729  free -h
+ 1730  ps -aux|grep tomcat
+ 1731  sudo ../bin/shutdown.sh 
+ 1732  ps -aux|grep tomcat
+ 1733  cd eclipse-workspace/DSpace/
+ 1734  ls
+ 1735  git status
+ 1736  ls
+ 1737  mvn -version
+ 1738  echo $PATH
+ 1739  export PATH=/opt/apache-maven-3.3.9/bin:$PATH
+ 1740  mvn -version
+ 1741  mvn package
+ 1742  cd dspace/target/dspace-installer/
+ 1743  ant fresh_install
+ 1744  cp -r /opt/install_folder_dspace/webapps/* /opt/tomcat/webapps/
+ 1745  cd ../../..
+ 1746  ls
+ 1747  git status
+ 1748  git add .
+ 1749  git commit -m "Primer commit para evaluar circuito de desarrollo"
+ 1750  git push -u origin main
+ 1751  git status
+ 1752  git push -u origin main
+ 1753  ls -l
+ 1754  curl -sSL https://get.rvm.io | bash -s stable --auto-dotfiles
+ 1755  gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+ 1756  #gpg --keyserver hkp://keys.gnupg.net:80 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+ 1757  gpg --keyserver hkp://keys.gnupg.net:80 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+ 1758  #gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+ 1759  curl -sSL https://get.rvm.io | bash -s stable --auto-dotfiles
+ 1760  rvm install ruby --default
+ 1761  gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+ 1762  sudo apt-get install software-properties-common
+ 1763  sudo apt-add-repository -y ppa:rael-gc/rvm
+ 1764  sudo apt-get update
+ 1765  sudo apt-get install rvm
+ 1766  rvm user gemsets
+ 1767  sudo usermod -a -G rvm dantexier
+ 1768  rvm user gemsets
+ 1769  sudo apt-get install rvm
+ 1770  rvm
+ 1771  rvm --version
+ 1772  sudo apt autoremove
+ 1773  rvm --version
+ 1774  sudo apt-get install rvm
+ 1775  df
+ 1776  history 
+ 1777  rvm
+ 1778  rvm user gemsets
+ 1779  rvm install ruby
+ 1780  source ~/.rvm/scripts/rvm
+ 1781  gem install sass -v 3.3.14 && gem install compass -v 1.0.1
+ 1782  rvm install ruby --default
+ 1783  gem install sass -v 3.3.14
+ 1784  sudo gem install sass -v 3.3.14
+ 1785  source ~/.rvm/scripts/rvm
+ 1786  rvm user gemsets
+ 1787  source ~/.rvm/scripts/rvm
+ 1788  source ~.rvm/scripts/rvm
+ 1789  rvm list known
+ 1790  rvm --version
+ 1791  ruby
+ 1792  sudo apt  install ruby
+ 1793  ruby --version
+ 1794  gpg --keyserver hkp://keys.gnupg.net --recv-keys
+ 1795  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+ 1796  source ~/.rvm/scripts/rvm
+ 1797  curl -sSL https://get.rvm.io | bash -s stable
+ 1798  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+ 1799  gpg --keyserver keyserver.ubuntu.com --recv-key 908F435E
+ 1800  curl -sSL https://rvm.io/mpapis.asc | gpg2 --import
+ 1801  sudo apt install gnupg2
+ 1802  curl -sSL https://rvm.io/mpapis.asc | gpg2 --import
+ 1803  curl -sSL https://rvm.io/pkuczynski.asc | gpg2 --import
+ 1804  gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+ 1805  gpg2 --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+ 1806  ruby -v
+ 1807  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.7/install.sh | bash 
+ 1808  ruby -v
+ 1809  nvm install 6.5.0 
+ 1810  nvm alias default 6.5.0
+ 1811  nvm --version
+ 1812  npm install -g bower
+ 1813  bower -v
+ 1814  npm install -g grunt && npm install -g grunt-cli
+ 1815  grunt --version
+ 1816  grunt 
+ 1817  sudo grunt 
+ 1818  node -v
+ 1819  gem install sass -v 3.3.14
+ 1820  sudo gem install sass -v 3.3.14
+ 1821  gem install compass -v 1.0.1
+ 1822  sudo gem install compass -v 1.0.1
+ 1823  sudo apt-get install ruby-dev
+ 1824  gem install compass -v 1.0.1
+ 1825  sudo gem install compass -v 1.0.1
+ 1826  gem list
+ 1827  sudo apt-get update 
+ 1828  cd Downloads/LACCEI/LEIRD/
+ 1829  history |grep grep
+ 1830  grep "Please write your paper" -r .
+ 1831  grep "Please write your paper" -r -n .
+ 1832  cd ..
+ 1833  ls
+ 1834  cd registration/
+ 1835  grep "Please write your paper" -r -n .
+ 1836  ls /home/dantexier/.m2/repository/
+ 1837  ls -l /home/dantexier/.m2/repository/
+ 1838  ls -l /home/dantexier/.m2/repository/rubygems/
+ 1839  ls -l /home/dantexier/.m2/repository/rubygems/chunky_png/
+ 1840  ls -l /home/dantexier/.m2/repository/rubygems/chunky_png/1.4.0/
+ 1841  source ~/.rvm/scripts/rvm
+ 1842  source ~/.bashrc && nvm install --lts
+ 1843  npm install -g grunt
+ 1844  npm install -g grunt-cli
+ 1845  echo 'export PATH="\$PATH:\$HOME/.rvm/bin"' >> ~/.bash_profile
+ 1846  echo [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*' >> ~/.bashrc
+ 1847  echo -s "$HOME/.rvm/scripts/rvm"  && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*' >> ~/.bashrc
+ 1848  rm  /etc/sudoers.d/rvm
+ 1849  grunt --version
+ 1850  node -v
+ 1851  cd eclipse-workspace/DSpace/
+ 1852  ls
+ 1853  cd dspace/modules/xmlui-mirage2/
+ 1854  ls
+ 1855  nano pom.xml 
+ 1856  history |grep sass
+ 1857  nano pom.xml 
+ 1858  sass
+ 1859  sass --version
+ 1860  cd ../../
+ 1861  nano config/xmlui.xconf 
+ 1862  cd ..
+ 1863  mvn package -Dmirage2.on=true -Dmirage2.deps.included=false
+ 1864  export PATH=/opt/apache-maven-3.3.9/bin:$PATH
+ 1865  mvn -version
+ 1866  mvn package -Dmirage2.on=true -Dmirage2.deps.included=false
+ 1867  compass --version
+ 1868  gem install compass -v 1.0.1
+ 1869  ls -l /var/lib/gems/
+ 1870  chwon
+ 1871  chown dantexier:dantexier /var/lib/gems/2.7.0/ -R
+ 1872  sudo chown dantexier:dantexier /var/lib/gems/2.7.0/ -R
+ 1873  ls -l /var/lib/gems/
+ 1874  gem install compass -v 1.0.1
+ 1875  sudo gem install compass -v 1.0.1
+ 1876  mvn package -Dmirage2.on=true -Dmirage2.deps.included=false
+ 1877  sudo mvn package -Dmirage2.on=true -Dmirage2.deps.included=false
+ 1878  sudo export PATH=/opt/apache-maven-3.3.9/bin:$PATH
+ 1879  sudo su
+ 1880  mvn package
+ 1881  ls dspace/target/
+ 1882  ls -l dspace/target/
+ 1883  ls -l dspace/target/dspace-installer/
+ 1884  rm -r dspace/target/dspace-installer/
+ 1885  mvn package
+ 1886  ls -l dspace
+ 1887  ls -l dspace/target/
+ 1888  ls -l dspace-services/
+ 1889  rm -r dspace-services/target/
+ 1890  sudo rm -r dspace-services/target/
+ 1891  mvn package
+ 1892  rm -r dspace-api/target/
+ 1893  sudo rm -r dspace-api/target/
+ 1894  mvn package
+ 1895  rm -r dspace/modules/additions/target/
+ 1896  sudo rm -r dspace/modules/additions/target/
+ 1897  mvn package
+ 1898  sudo rm -r dspace-xmlui/target/
+ 1899  mvn package
+ 1900  sudo rm -r dspace-xmlui-mirage2/target/
+ 1901  mvn package
+ 1902  cd dspace/target/dspace-installer/
+ 1903  ant fresh_install
+ 1904  cd ../../../
+ 1905  mvn package -Dmirage2.on=true
+ 1906  ls dspace/modules/xmlui-mirage2/
+ 1907  ls -l dspace/modules/xmlui-mirage2/
+ 1908  rm -r dspace/modules/xmlui-mirage2/target/
+ 1909  sudo rm -r dspace/modules/xmlui-mirage2/target/
+ 1910  ls -l dspace/modules/xmlui-mirage2/
+ 1911  mvn package -Dmirage2.on=true
+ 1912  ruby --version
+ 1913  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+ 1914  nvm –version
+ 1915  nvm -version
+ 1916  nvm --version
+ 1917  nvm install node
+ 1918  nvm install 6.5.0
+ 1919  npm install -g bower
+ 1920  npm install -g grunt && npm install -g grunt-cli
+ 1921  sudo apt-get update
+ 1922  sudo apt-get install build-essential
+ 1923  sudo apt-get install curl
+ 1924  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+ 1925  7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+ 1926  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB curl -sSL https://get.rvm.io | bash -s stable
+ 1927  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB 
+ 1928  gpg --keyserver keyserver.ubuntu.com --search-keys  409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB 
+ 1929  gpg --keyserver keyserver.ubuntu.com --search-keys  409B6B1796C275462A1703113804BB82D39DC0E3 
+ 1930  gpg --keyserver keyserver.ubuntu.com --search-keys  7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+ 1931  curl -sSL https://get.rvm.io | bash -s stable
+ 1932  curl -sSL https://get.rvm.io | bash -s stable>t.txt
+ 1933  gedit t.txt 
+ 1934  rvmsudo rvm cleanup all
+ 1935  curl -sSL https://get.rvm.io | bash -s stable
+ 1936  source ~/.rvm/scripts/rvm
+ 1937  rvm install 2.5.3
+ 1938  ls /usr/share/rvm/scripts/rvm
+ 1939  nano /usr/share/rvm/scripts/rvm 
+ 1940  source ~/.rvm/scripts/rvm
+ 1941  ls  ~/.rvm/scripts/
+ 1942  mkdir ~/.rvm/
+ 1943  mkdir ~/.rvm/scripts/
+ 1944  ls  ~/.rvm/scripts/
+ 1945  nano /usr/share/rvm/scripts/rvm 
+ 1946  cp /usr/share/rvm/scripts/rvm ~/.rvm/scripts/
+ 1947  ls  ~/.rvm/scripts/
+ 1948  source ~/.rvm/scripts/rvm
+ 1949  ruby -v
+ 1950  gem install sass -v 3.3.14 && gem install compass -v 1.0.1
+ 1951  vim .gemrc
+ 1952  sudo apt install vim
+ 1953  vim .gemrc
+ 1954  nano .gemrc
+ 1955  gem install sass -v 3.3.14 && gem install compass -v 1.0.1
+ 1956  gem install sass -v 3.3.14 --pre -n /usr/local/bin
+ 1957  sudo gem install sass -v 3.3.14 --pre -n /usr/local/bin
+ 1958  sudo gem install compass -v 1.0.1
+ 1959  sudo gem install compass -v 1.0.1 --pre -n /usr/local/bin
+ 1960  history |grep mvn
+ 1961  mvn package -Dmirage2.on=true
+ 1962  mvn clean install
+ 1963  mvn package -Dmirage2.on=true
+ 1964  rvm install 2.5.3
+ 1965  rvm reinstall ruby-2.5.3
+ 1966  ruby -v
+ 1967  history sass
+ 1968  history |grep sass
+ 1969  sudo gem install sass -v 3.3.14 --pre -n /usr/local/bin
+ 1970  history |grep compass
+ 1971  sudo gem install compass -v 1.0.1 --pre -n /usr/local/bin
+ 1972  mvn package -Dmirage2.on=true
+ 1973  history |grep mvn
+ 1974  mvn package -Dmirage2.on=true -Dmirage2.deps.included=false
+ 1975  mvn package -Dmirage2.on=true -Dmirage2.deps.included=true
+ 1976  nano dspace/modules/xmlui-mirage2/pom.xml 
+ 1977  gedit dspace/modules/xmlui-mirage2/pom.xml &
+ 1978  sass --version
+ 1979  sass -version
+ 1980  sass 
+ 1981  sudo gem install sass -n /usr/local/bin
+ 1982  sass 
+ 1983  sass
+ 1984  sass --version
+ 1985  cd eclipse-workspace/DSpace/
+ 1986  gedit dspace/modules/xmlui-mirage2/pom.xml &
+ 1987  sass --version
+ 1988  compass --version
+ 1989  history |grep node
+ 1990  node -v
+ 1991  history |grep npm
+ 1992  npm --version
+ 1993  history 
+ 1994  mvn package -Dmirage2.on=true -Dmirage2.deps.included=false
+ 1995  export PATH=/opt/apache-maven-3.3.9/bin:$PATH
+ 1996  mvn -version
+ 1997  mvn package -Dmirage2.on=true -Dmirage2.deps.included=false
+ 1998  mvn package -Dmirage2.on=true -Dmirage2.deps.included=false > error.txt
+ 1999  mvn package -Dmirage2.on=true -Dmirage2.deps.included=true > error2.txt
+ 2000  mvn package -Dmirage2.on=true 
+ 2001  cd eclipse-workspace/DSpace/
+ 2002  export PATH=/opt/apache-maven-3.3.9/bin:$PATH
+ 2003  mvn clean package -Dmirage2.on=true -Dmirage2.deps.included=false -P mirage2_dev
+ 2004  ls
+ 2005  gedit dspace-xmlui-mirage2/pom.xml 
+ 2006  history |grep grep
+ 2007  grep "Please write your paper" -r -n .
+ 2008  grep "Mirage2 Theme :: Local Customisations" -r -n .
+ 2009  nano dspace/modules/xmlui-mirage2/pom.xml 
+ 2010  gedit dspace/modules/xmlui-mirage2/pom.xml 
+ 2011  ls -l /home/dantexier/.nvm/versions/node/v6.5.0/lib/node_modules/grunt-cli/node_modules/micromatch/
+ 2012  history |grep chown
+ 2013  sudo chown dantexier:dantexier /home/dantexier/
+ 2014  sudo chown dantexier:dantexier /home/dantexier/ -r
+ 2015  sudo chown -r dantexier:dantexier /home/dantexier/ 
+ 2016  chown
+ 2017  chown --help
+ 2018  sudo chown -R dantexier:dantexier /home/dantexier/ 
+ 2019  mvn package -Dmirage2.on=true -Dmirage2.deps.included=false
+ 2020  sudo mvn package -Dmirage2.on=true -Dmirage2.deps.included=false
+ 2021  sudo /opt/apache-maven-3.3.9/bin/mvn package -Dmirage2.on=true -Dmirage2.deps.included=false
+ 2022  mvn package -Dmirage2.on=true -Dmirage2.deps.included=false
+ 2023  history |grep bower 
+ 2024  npm install -g bower
+ 2025  grep "bower" -r -n .
+ 2026  gedit dspace-xmlui-mirage2/readme.md &
+ 2027  mvn package -Dmirage2.on=true
+ 2028  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.7/install.sh | bash 
+ 2029  nvm install 6.5.0
+ 2030  nvm alias default 6.5.0
+ 2031  npm install -g bower
+ 2032  npm install -g grunt && npm install -g grunt-cli 
+ 2033  history >historia.txt

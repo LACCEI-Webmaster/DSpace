@@ -1,0 +1,416 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] DSpace Parent Project
+[INFO] DSpace Services Framework :: API and Implementation
+[INFO] DSpace Kernel :: API and Implementation
+[INFO] DSpace Addon Modules
+[INFO] DSpace Kernel :: Additions and Local Customizations
+[INFO] DSpace XML-UI (Manakin)
+[INFO] DSpace XML-UI Mirage2 Theme
+[INFO] DSpace XML-UI Mirage2 Theme :: Local Customisations
+[INFO] DSpace XML-UI (Manakin) :: Local Customizations
+[INFO] DSpace JSP-UI
+[INFO] DSpace JSP-UI :: Local Customizations
+[INFO] DSpace RDF
+[INFO] DSpace RDF :: Local Customizations
+[INFO] DSpace REST :: API and Implementation
+[INFO] DSpace REST :: Local Customizations
+[INFO] DSpace SWORD
+[INFO] DSpace SWORD :: Local Customizations
+[INFO] DSpace SWORD v2
+[INFO] DSpace SWORD v2 :: Local Customizations
+[INFO] Apache Solr Webapp
+[INFO] DSpace SOLR :: Local Customizations
+[INFO] DSpace OAI-PMH
+[INFO] DSpace OAI-PMH :: Local Customizations
+[INFO] DSpace Assembly and Configuration
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace Parent Project 6.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ dspace-parent ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ dspace-parent ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace Services Framework :: API and Implementation 6.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ dspace-services ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ dspace-services ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ dspace-services ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ dspace-services ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 87 source files to /home/dantexier/eclipse-workspace/DSpace/dspace-services/target/classes
+[INFO] /home/dantexier/eclipse-workspace/DSpace/dspace-services/src/main/java/org/dspace/services/sessions/model/InternalHttpSession.java: Some input files use or override a deprecated API.
+[INFO] /home/dantexier/eclipse-workspace/DSpace/dspace-services/src/main/java/org/dspace/services/sessions/model/InternalHttpSession.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/dantexier/eclipse-workspace/DSpace/dspace-services/src/main/java/org/dspace/servicemanager/config/DSpaceConfigurationService.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/dantexier/eclipse-workspace/DSpace/dspace-services/src/main/java/org/dspace/servicemanager/config/DSpaceConfigurationService.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ dspace-services ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ dspace-services ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ dspace-services ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ dspace-services ---
+[INFO] Building jar: /home/dantexier/eclipse-workspace/DSpace/dspace-services/target/dspace-services-6.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace Kernel :: API and Implementation 6.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ dspace-api ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ dspace-api ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:maven-version (default) @ dspace-api ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ dspace-api ---
+[INFO] Executing: /bin/sh -c cd '/home/dantexier/eclipse-workspace/DSpace/dspace-api' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/dantexier/eclipse-workspace/DSpace/dspace-api
+[INFO] Storing buildNumber: 72fe760e5ad640342fb45ceec22858ca9bca6922 at timestamp: 1628695637333
+[INFO] Storing buildScmBranch: main
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ dspace-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 109 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ dspace-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 990 source files to /home/dantexier/eclipse-workspace/DSpace/dspace-api/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/event/ConsumerProfile.java:[14,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/mediafilter/BrandedPreviewJPEGFilter.java:[16,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/Site.java:[12,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/sherpa/SHERPAService.java:[20,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/util/SyndicationFeed.java:[29,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/packager/AbstractMETSIngester.java:[30,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/packager/METSManifest.java:[32,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/crosswalk/XHTMLHeadDisseminationCrosswalk.java:[15,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/browse/BrowseIndex.java:[16,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/sort/SortOption.java:[17,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/administer/StructBuilder.java:[26,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/util/GoogleMetadata.java:[17,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/checker/DailyReportEmailer.java:[14,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/crosswalk/XSLTCrosswalk.java:[22,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/submit/lookup/CiNiiService.java:[25,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/submit/lookup/CiNiiService.java:[26,30] org.apache.http.params.CoreConnectionPNames in org.apache.http.params has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/crosswalk/XSLTDisseminationCrosswalk.java:[33,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/mediafilter/PDFFilter.java:[23,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/statistics/HTMLReport.java:[10,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/requestitem/RequestItemHelpdeskStrategy.java:[13,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/testing/PubMedToImport.java:[13,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/administer/CommunityFiliator.java:[19,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/crosswalk/MODSDisseminationCrosswalk.java:[31,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/statistics/util/DnsLookup.java:[10,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/identifier/VersionedHandleIdentifierProviderWithCanonicalHandles.java:[14,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/authority/AuthoritySolrServiceImpl.java:[18,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/util/AbstractDSpaceWebapp.java:[17,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/identifier/ezid/EZIDRequest.java:[24,35] org.apache.http.impl.client.AbstractHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/identifier/ezid/EZIDRequest.java:[25,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/util/CollectionDropDown.java:[17,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/authority/MetadataAuthorityServiceImpl.java:[23,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/crosswalk/CrosswalkMetadataValidator.java:[19,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/identifier/VersionedHandleIdentifierProvider.java:[14,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/authenticate/IPAuthentication.java:[22,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/submit/lookup/ArXivService.java:[29,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/submit/lookup/ArXivService.java:[30,30] org.apache.http.params.CoreConnectionPNames in org.apache.http.params has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/submit/lookup/ArXivService.java:[31,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/authority/UpdateAuthorities.java:[18,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/util/SolrImportExport.java:[29,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/crosswalk/PREMISCrosswalk.java:[24,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/health/InfoCheck.java:[11,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/statistics/LogAnalyser.java:[11,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/ctask/general/MetadataWebService.java:[36,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/statistics/util/ApacheLogRobotsProcessor.java:[13,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/checker/ResultsPruner.java:[25,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/itemupdate/ItemUpdate.java:[30,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/itemupdate/ItemUpdate.java:[35,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/crosswalk/QDCCrosswalk.java:[16,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/submit/lookup/PubmedService.java:[32,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/submit/lookup/PubmedService.java:[33,30] org.apache.http.params.CoreConnectionPNames in org.apache.http.params has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/submit/lookup/PubmedService.java:[36,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/submit/lookup/CrossRefService.java:[46,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/submit/lookup/CrossRefService.java:[47,30] org.apache.http.params.CoreConnectionPNames in org.apache.http.params has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/crosswalk/METSDisseminationCrosswalk.java:[22,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/bulkedit/MetadataImport.java:[25,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/packager/DSpaceMETSDisseminator.java:[21,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/administer/MetadataExporter.java:[11,32] org.apache.xml.serialize.Method in org.apache.xml.serialize has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/administer/MetadataExporter.java:[12,32] org.apache.xml.serialize.OutputFormat in org.apache.xml.serialize has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/administer/MetadataExporter.java:[13,32] org.apache.xml.serialize.XMLSerializer in org.apache.xml.serialize has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/authority/SHERPARoMEOProtocol.java:[26,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/authority/SHERPARoMEOProtocol.java:[32,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/statistics/factory/StatisticsServiceFactory.java:[11,37] org.dspace.statistics.service.ElasticSearchLoggerService in org.dspace.statistics.service has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/identifier/HandleIdentifierProvider.java:[14,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/statistics/ElasticSearchLoggerServiceImpl.java:[31,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/statistics/ElasticSearchLoggerServiceImpl.java:[34,37] org.dspace.statistics.service.ElasticSearchLoggerService in org.dspace.statistics.service has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/browse/LocaleOrderingFilter.java:[13,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/browse/ItemCountDAOFactory.java:[11,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/submit/lookup/SubmissionLookupUtils.java:[25,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/authenticate/LDAPAuthentication.java:[37,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/administer/CreateAdministrator.java:[17,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/administer/CreateAdministrator.java:[20,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/mediafilter/ImageMagickThumbnailFilter.java:[31,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/authority/SolrAuthority.java:[23,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/crosswalk/RoleCrosswalk.java:[23,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/harvest/HarvestedCollectionServiceImpl.java:[11,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/statistics/util/StatisticsImporter.java:[35,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/statistics/util/StatisticsImporter.java:[46,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/harvest/HarvestScheduler.java:[14,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/statistics/ReportGenerator.java:[35,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/mediafilter/JPEGFilter.java:[23,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/SiteServiceImpl.java:[14,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/xmlworkflow/WorkflowUtils.java:[14,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/statistics/content/StatisticsDataVisits.java:[31,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/statistics/factory/StatisticsServiceFactoryImpl.java:[11,37] org.dspace.statistics.service.ElasticSearchLoggerService in org.dspace.statistics.service has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/itemupdate/MetadataUtilities.java:[47,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/health/Report.java:[13,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/storage/bitstore/S3BitStoreService.java:[22,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/license/CreativeCommonsServiceImpl.java:[36,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/browse/CrossLinks.java:[13,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/checker/ChecksumChecker.java:[18,30] org.apache.commons.cli.OptionBuilder in org.apache.commons.cli has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/checker/ChecksumChecker.java:[21,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/app/util/WebAppServiceImpl.java:[14,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/content/crosswalk/AIPTechMDCrosswalk.java:[21,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/ctask/general/MicrosoftTranslator.java:[17,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/ctask/general/MicrosoftTranslator.java:[19,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/statistics/util/StatisticsImporterElasticSearch.java:[29,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/statistics/util/StatisticsImporterElasticSearch.java:[36,37] org.dspace.statistics.service.ElasticSearchLoggerService in org.dspace.statistics.service has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/browse/BrowseDAOFactory.java:[10,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[WARNING] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/storage/bitstore/Cleanup.java:[15,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[INFO] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/discovery/SolrServiceImpl.java: Some input files additionally use or override a deprecated API.
+[INFO] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/xmlworkflow/state/actions/Action.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/dantexier/eclipse-workspace/DSpace/dspace-api/src/main/java/org/dspace/xmlworkflow/state/actions/Action.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ dspace-api ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ dspace-api ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ dspace-api ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ dspace-api ---
+[INFO] Building jar: /home/dantexier/eclipse-workspace/DSpace/dspace-api/target/dspace-api-6.3.jar
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:test-jar (default) @ dspace-api ---
+[INFO] Skipping packaging of the test-jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace Addon Modules 6.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ modules ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ modules ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace Kernel :: Additions and Local Customizations 6.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ additions ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ additions ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ additions ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ additions ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ additions ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ additions ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ additions ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ additions ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace XML-UI (Manakin) 6.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ dspace-xmlui ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ dspace-xmlui ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ dspace-xmlui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 28 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ dspace-xmlui ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ dspace-xmlui ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ dspace-xmlui ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ dspace-xmlui ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-war) @ dspace-xmlui ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [dspace-xmlui] in [/home/dantexier/eclipse-workspace/DSpace/dspace-xmlui/target/dspace-xmlui-6.3]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/dantexier/eclipse-workspace/DSpace/dspace-xmlui/src/main/webapp]
+[INFO] Webapp assembled in [920 msecs]
+[INFO] Building war: /home/dantexier/eclipse-workspace/DSpace/dspace-xmlui/target/dspace-xmlui-6.3.war
+[INFO] Packaging classes
+[INFO] Building jar: /home/dantexier/eclipse-workspace/DSpace/dspace-xmlui/target/dspace-xmlui-6.3-classes.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace XML-UI Mirage2 Theme 6.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ dspace-xmlui-mirage2 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ dspace-xmlui-mirage2 ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ dspace-xmlui-mirage2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/dantexier/eclipse-workspace/DSpace/dspace-xmlui-mirage2/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ dspace-xmlui-mirage2 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ dspace-xmlui-mirage2 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ dspace-xmlui-mirage2 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ dspace-xmlui-mirage2 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-war) @ dspace-xmlui-mirage2 ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [dspace-xmlui-mirage2] in [/home/dantexier/eclipse-workspace/DSpace/dspace-xmlui-mirage2/target/dspace-xmlui-mirage2-6.3]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [/home/dantexier/eclipse-workspace/DSpace/dspace-xmlui-mirage2/src/main/webapp] to [/home/dantexier/eclipse-workspace/DSpace/dspace-xmlui-mirage2/target/dspace-xmlui-mirage2-6.3]
+[INFO] Copying webapp resources [/home/dantexier/eclipse-workspace/DSpace/dspace-xmlui-mirage2/src/main/webapp]
+[INFO] Webapp assembled in [53 msecs]
+[INFO] Building war: /home/dantexier/eclipse-workspace/DSpace/dspace-xmlui-mirage2/target/dspace-xmlui-mirage2-6.3.war
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building DSpace XML-UI Mirage2 Theme :: Local Customisations 6.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ xmlui-mirage2 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ xmlui-mirage2 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (default) @ xmlui-mirage2 ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+     [echo] PATH=/opt/apache-maven-3.3.9/bin:/home/dantexier/.nvm/versions/node/v6.5.0/bin:/home/dantexier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/share/rvm/bin
+     [echo] GEM_PATH=${env.GEM_PATH}
+     [echo] GEM_HOME=${env.GEM_HOME}
+     [echo] mirage2.deps.included=false
+     [echo] grunt.color.scheme=classic_mirage_color_scheme
+     [echo] grunt.environment=prod
+     [echo] source=/home/dantexier/eclipse-workspace/DSpace/dspace/modules/xmlui-mirage2/src/main/webapp/themes/
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:unpack-dependencies (unpack-dependencies) @ xmlui-mirage2 ---
+[INFO] Unpacking /home/dantexier/eclipse-workspace/DSpace/dspace-xmlui-mirage2/target/dspace-xmlui-mirage2-6.3.war to /home/dantexier/eclipse-workspace/DSpace/dspace/modules/xmlui-mirage2/target/mirage2-source-extracted with includes "" and excludes "WEB-INF/**,META-INF/**"
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ xmlui-mirage2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/dantexier/eclipse-workspace/DSpace/dspace/modules/xmlui-mirage2/src/main/resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:copy-resources (default) @ xmlui-mirage2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ xmlui-mirage2 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ xmlui-mirage2 ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ xmlui-mirage2 ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ xmlui-mirage2 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- iterator-maven-plugin:0.3:iterator (default) @ xmlui-mirage2 ---
+[INFO] ------ (Mirage2) org.apache.maven.plugins:maven-resources-plugin:2.7:copy-resources
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 134 resources
+[INFO] ------ (Mirage2) org.apache.maven.plugins:maven-resources-plugin:2.7:copy-resources
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] ------ (Mirage2) org.codehaus.mojo:exec-maven-plugin:1.4.0:exec
+
+> Mirage2@0.1.2 postinstall /home/dantexier/eclipse-workspace/DSpace/dspace/modules/xmlui-mirage2/target/themes/Mirage2
+> bower install
+
+[INFO] ------ (Mirage2) org.codehaus.mojo:exec-maven-plugin:1.4.0:exec
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] DSpace Parent Project .............................. SUCCESS [  0.555 s]
+[INFO] DSpace Services Framework :: API and Implementation  SUCCESS [  3.749 s]
+[INFO] DSpace Kernel :: API and Implementation ............ SUCCESS [ 16.666 s]
+[INFO] DSpace Addon Modules ............................... SUCCESS [  0.005 s]
+[INFO] DSpace Kernel :: Additions and Local Customizations  SUCCESS [  0.166 s]
+[INFO] DSpace XML-UI (Manakin) ............................ SUCCESS [  6.125 s]
+[INFO] DSpace XML-UI Mirage2 Theme ........................ SUCCESS [  0.134 s]
+[INFO] DSpace XML-UI Mirage2 Theme :: Local Customisations  FAILURE [  5.774 s]
+[INFO] DSpace XML-UI (Manakin) :: Local Customizations .... SKIPPED
+[INFO] DSpace JSP-UI ...................................... SKIPPED
+[INFO] DSpace JSP-UI :: Local Customizations .............. SKIPPED
+[INFO] DSpace RDF ......................................... SKIPPED
+[INFO] DSpace RDF :: Local Customizations ................. SKIPPED
+[INFO] DSpace REST :: API and Implementation .............. SKIPPED
+[INFO] DSpace REST :: Local Customizations ................ SKIPPED
+[INFO] DSpace SWORD ....................................... SKIPPED
+[INFO] DSpace SWORD :: Local Customizations ............... SKIPPED
+[INFO] DSpace SWORD v2 .................................... SKIPPED
+[INFO] DSpace SWORD v2 :: Local Customizations ............ SKIPPED
+[INFO] Apache Solr Webapp ................................. SKIPPED
+[INFO] DSpace SOLR :: Local Customizations ................ SKIPPED
+[INFO] DSpace OAI-PMH ..................................... SKIPPED
+[INFO] DSpace OAI-PMH :: Local Customizations ............. SKIPPED
+[INFO] DSpace Assembly and Configuration .................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 33.962 s
+[INFO] Finished at: 2021-08-11T12:27:41-03:00
+[INFO] Final Memory: 75M/656M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.soebes.maven.plugins:iterator-maven-plugin:0.3:iterator (default) on project xmlui-mirage2: Command execution failed. Process exited with an error: 1 (Exit value: 1) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :xmlui-mirage2
