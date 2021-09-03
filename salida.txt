@@ -1,0 +1,534 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] The project org.dspace:dspace-parent:pom:6.3 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] DSpace Parent Project                                              [pom]
+[[1;34mINFO[m] DSpace Services Framework :: API and Implementation                [jar]
+[[1;34mINFO[m] DSpace Kernel :: API and Implementation                            [jar]
+[[1;34mINFO[m] DSpace Addon Modules                                               [pom]
+[[1;34mINFO[m] DSpace Kernel :: Additions and Local Customizations                [jar]
+[[1;34mINFO[m] DSpace XML-UI (Manakin)                                            [war]
+[[1;34mINFO[m] DSpace XML-UI Mirage2 Theme                                        [war]
+[[1;34mINFO[m] DSpace XML-UI Mirage2 Theme :: Local Customisations                [war]
+[[1;34mINFO[m] DSpace XML-UI (Manakin) :: Local Customizations                    [war]
+[[1;34mINFO[m] DSpace JSP-UI                                                      [war]
+[[1;34mINFO[m] DSpace JSP-UI :: Local Customizations                              [war]
+[[1;34mINFO[m] DSpace RDF                                                         [war]
+[[1;34mINFO[m] DSpace RDF :: Local Customizations                                 [war]
+[[1;34mINFO[m] DSpace REST :: API and Implementation                              [war]
+[[1;34mINFO[m] DSpace REST :: Local Customizations                                [war]
+[[1;34mINFO[m] DSpace SWORD                                                       [war]
+[[1;34mINFO[m] DSpace SWORD :: Local Customizations                               [war]
+[[1;34mINFO[m] DSpace SWORD v2                                                    [war]
+[[1;34mINFO[m] DSpace SWORD v2 :: Local Customizations                            [war]
+[[1;34mINFO[m] Apache Solr Webapp                                                 [war]
+[[1;34mINFO[m] DSpace SOLR :: Local Customizations                                [war]
+[[1;34mINFO[m] DSpace OAI-PMH                                                     [war]
+[[1;34mINFO[m] DSpace OAI-PMH :: Local Customizations                             [war]
+[[1;34mINFO[m] DSpace Assembly and Configuration                                  [pom]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.dspace:dspace-parent[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding DSpace Parent Project 6.3                                [1/24][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mdspace-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-java)[m @ [36mdspace-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-versions)[m @ [36mdspace-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.dspace:dspace-services[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding DSpace Services Framework :: API and Implementation 6.3  [2/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mdspace-services[0;1m ---[m
+[[1;34mINFO[m] Deleting /opt/dspace-6.3-src-release/dspace-services/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-java)[m @ [36mdspace-services[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-versions)[m @ [36mdspace-services[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mdspace-services[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.5.1:compile[m [1m(default-compile)[m @ [36mdspace-services[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 87 source files to /opt/dspace-6.3-src-release/dspace-services/target/classes
+[[1;34mINFO[m] /opt/dspace-6.3-src-release/dspace-services/src/main/java/org/dspace/services/sessions/model/InternalHttpSession.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /opt/dspace-6.3-src-release/dspace-services/src/main/java/org/dspace/services/sessions/model/InternalHttpSession.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /opt/dspace-6.3-src-release/dspace-services/src/main/java/org/dspace/servicemanager/config/DSpaceConfigurationService.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /opt/dspace-6.3-src-release/dspace-services/src/main/java/org/dspace/servicemanager/config/DSpaceConfigurationService.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mdspace-services[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.5.1:testCompile[m [1m(default-testCompile)[m @ [36mdspace-services[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36mdspace-services[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.6:jar[m [1m(default-jar)[m @ [36mdspace-services[0;1m ---[m
+[[1;34mINFO[m] Building jar: /opt/dspace-6.3-src-release/dspace-services/target/dspace-services-6.3.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36morg.dspace:dspace-api[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding DSpace Kernel :: API and Implementation 6.3              [3/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mdspace-api[0;1m ---[m
+[[1;34mINFO[m] Deleting /opt/dspace-6.3-src-release/dspace-api/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-java)[m @ [36mdspace-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-versions)[m @ [36mdspace-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.9.1:maven-version[m [1m(default)[m @ [36mdspace-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.4:create[m [1m(default)[m @ [36mdspace-api[0;1m ---[m
+[[1;34mINFO[m] Executing: /bin/sh -c cd '/opt/dspace-6.3-src-release/dspace-api' && 'git' 'rev-parse' '--verify' 'HEAD'
+[[1;34mINFO[m] Working directory: /opt/dspace-6.3-src-release/dspace-api
+[[1;34mINFO[m] Storing buildNumber: f8e8e290396bf3a2eaafb00808e8b04be86ea03b at timestamp: 1629768223607
+[[1;34mINFO[m] Storing buildScmBranch: main
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mdspace-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 109 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.5.1:compile[m [1m(default-compile)[m @ [36mdspace-api[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 990 source files to /opt/dspace-6.3-src-release/dspace-api/target/classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 1.7
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/event/ConsumerProfile.java:[14,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/util/SyndicationFeed.java:[29,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/submit/lookup/ArXivService.java:[29,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/submit/lookup/ArXivService.java:[30,30] org.apache.http.params.CoreConnectionPNames in org.apache.http.params has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/submit/lookup/ArXivService.java:[31,30] org.apache.http.params.HttpParams in org.apache.http.params has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/authority/SHERPARoMEOProtocol.java:[26,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/authority/SHERPARoMEOProtocol.java:[32,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/submit/lookup/CiNiiService.java:[25,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/submit/lookup/CiNiiService.java:[26,30] org.apache.http.params.CoreConnectionPNames in org.apache.http.params has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/Site.java:[12,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/browse/BrowseIndex.java:[16,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/sort/SortOption.java:[17,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/identifier/ezid/EZIDRequest.java:[24,35] org.apache.http.impl.client.AbstractHttpClient in org.apache.http.impl.client has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/identifier/ezid/EZIDRequest.java:[25,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/statistics/StatisticsLoader.java:[11,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/sherpa/SHERPAService.java:[20,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/authority/UpdateAuthorities.java:[18,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/packager/METSManifest.java:[32,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/license/CreativeCommonsServiceImpl.java:[36,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/crosswalk/XSLTCrosswalk.java:[22,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/statistics/SolrLoggerServiceImpl.java:[47,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/browse/BrowseDAOFactory.java:[10,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/statistics/factory/StatisticsServiceFactoryImpl.java:[11,37] org.dspace.statistics.service.ElasticSearchLoggerService in org.dspace.statistics.service has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/statistics/factory/StatisticsServiceFactory.java:[11,37] org.dspace.statistics.service.ElasticSearchLoggerService in org.dspace.statistics.service has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/vocabulary/ControlledVocabulary.java:[11,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/health/InfoCheck.java:[11,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/statistics/util/StatisticsImporterElasticSearch.java:[29,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/statistics/util/StatisticsImporterElasticSearch.java:[36,37] org.dspace.statistics.service.ElasticSearchLoggerService in org.dspace.statistics.service has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/harvest/HarvestedCollectionServiceImpl.java:[11,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/packager/DSpaceMETSDisseminator.java:[21,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/itemupdate/MetadataUtilities.java:[47,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/statistics/util/StatisticsImporter.java:[35,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/statistics/util/StatisticsImporter.java:[46,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/browse/LocaleOrderingFilter.java:[13,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/authority/SolrAuthority.java:[23,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/administer/MetadataExporter.java:[11,32] org.apache.xml.serialize.Method in org.apache.xml.serialize has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/administer/MetadataExporter.java:[12,32] org.apache.xml.serialize.OutputFormat in org.apache.xml.serialize has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/administer/MetadataExporter.java:[13,32] org.apache.xml.serialize.XMLSerializer in org.apache.xml.serialize has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/submit/lookup/SubmissionLookupUtils.java:[25,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/crosswalk/CrosswalkMetadataValidator.java:[19,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/submit/lookup/PubmedService.java:[32,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/submit/lookup/PubmedService.java:[33,30] org.apache.http.params.CoreConnectionPNames in org.apache.http.params has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/submit/lookup/PubmedService.java:[36,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/crosswalk/METSDisseminationCrosswalk.java:[22,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/util/WebAppServiceImpl.java:[14,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/administer/MetadataImporter.java:[20,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/mediafilter/ImageMagickThumbnailFilter.java:[31,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/crosswalk/AIPTechMDCrosswalk.java:[21,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/mediafilter/JPEGFilter.java:[23,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/itemupdate/ItemUpdate.java:[30,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/itemupdate/ItemUpdate.java:[35,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/bulkedit/MetadataImport.java:[25,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/statistics/util/DnsLookup.java:[10,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/discovery/SolrServiceImpl.java:[22,37] org.apache.http.client.params.ClientPNames in org.apache.http.client.params has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/discovery/SolrServiceImpl.java:[24,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/SiteServiceImpl.java:[14,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/statistics/CreateStatReport.java:[20,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/statistics/CreateStatReport.java:[23,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/checker/DailyReportEmailer.java:[14,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/checker/ChecksumChecker.java:[18,30] org.apache.commons.cli.OptionBuilder in org.apache.commons.cli has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/checker/ChecksumChecker.java:[21,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/requestitem/RequestItemHelpdeskStrategy.java:[13,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/crosswalk/RoleCrosswalk.java:[23,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/authorize/AuthorizeConfiguration.java:[10,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/storage/bitstore/Cleanup.java:[15,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/testing/PubMedToImport.java:[13,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/administer/StructBuilder.java:[26,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/administer/CreateAdministrator.java:[17,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/administer/CreateAdministrator.java:[20,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/submit/lookup/CrossRefService.java:[46,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/submit/lookup/CrossRefService.java:[47,30] org.apache.http.params.CoreConnectionPNames in org.apache.http.params has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/util/CollectionDropDown.java:[17,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/statistics/content/StatisticsDataVisits.java:[31,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/crosswalk/MODSDisseminationCrosswalk.java:[31,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/packager/AbstractMETSIngester.java:[30,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/statistics/ElasticSearchLoggerServiceImpl.java:[31,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/statistics/ElasticSearchLoggerServiceImpl.java:[34,37] org.dspace.statistics.service.ElasticSearchLoggerService in org.dspace.statistics.service has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/google/GoogleRecorderEventListener.java:[20,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/eperson/LoadLastLogin.java:[32,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/statistics/LogAnalyser.java:[11,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/crosswalk/XHTMLHeadDisseminationCrosswalk.java:[15,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/util/AbstractDSpaceWebapp.java:[17,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/browse/ItemCountDAOFactory.java:[11,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/authority/LCNameAuthority.java:[29,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/authority/LCNameAuthority.java:[37,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/identifier/HandleIdentifierProvider.java:[14,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/crosswalk/QDCCrosswalk.java:[16,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/authenticate/IPAuthentication.java:[22,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/administer/CommunityFiliator.java:[19,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/ctask/general/MetadataWebService.java:[36,35] org.apache.http.impl.client.DefaultHttpClient in org.apache.http.impl.client has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/statistics/util/ApacheLogRobotsProcessor.java:[13,30] org.apache.commons.cli.PosixParser in org.apache.commons.cli has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/content/crosswalk/PREMISCrosswalk.java:[24,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/event/TestConsumer.java:[16,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/util/SolrImportExport.java:[29,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/harvest/HarvestScheduler.java:[14,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/app/util/GoogleMetadata.java:[17,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/authority/AuthoritySolrServiceImpl.java:[18,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/storage/bitstore/S3BitStoreService.java:[22,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;33mWARNING[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/identifier/VersionedHandleIdentifierProvider.java:[14,23] org.dspace.core.ConfigurationManager in org.dspace.core has been deprecated
+[[1;34mINFO[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/authenticate/LDAPAuthentication.java: Some input files additionally use or override a deprecated API.
+[[1;34mINFO[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/event/Event.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /opt/dspace-6.3-src-release/dspace-api/src/main/java/org/dspace/event/Event.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mdspace-api[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.5.1:testCompile[m [1m(default-testCompile)[m @ [36mdspace-api[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36mdspace-api[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.6:jar[m [1m(default-jar)[m @ [36mdspace-api[0;1m ---[m
+[[1;34mINFO[m] Building jar: /opt/dspace-6.3-src-release/dspace-api/target/dspace-api-6.3.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.6:test-jar[m [1m(default)[m @ [36mdspace-api[0;1m ---[m
+[[1;34mINFO[m] Skipping packaging of the test-jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------------< [0;36morg.dspace:modules[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding DSpace Addon Modules 6.3                                 [4/24][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mmodules[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-java)[m @ [36mmodules[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-versions)[m @ [36mmodules[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.dspace.modules:additions[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding DSpace Kernel :: Additions and Local Customizations 6.3  [5/24][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36madditions[0;1m ---[m
+[[1;34mINFO[m] Deleting /opt/dspace-6.3-src-release/dspace/modules/additions/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-java)[m @ [36madditions[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-versions)[m @ [36madditions[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36madditions[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.5.1:compile[m [1m(default-compile)[m @ [36madditions[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /opt/dspace-6.3-src-release/dspace/modules/additions/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36madditions[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.5.1:testCompile[m [1m(default-testCompile)[m @ [36madditions[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36madditions[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.6:jar[m [1m(default-jar)[m @ [36madditions[0;1m ---[m
+[[1;34mINFO[m] Building jar: /opt/dspace-6.3-src-release/dspace/modules/additions/target/additions-6.3.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.dspace:dspace-xmlui[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding DSpace XML-UI (Manakin) 6.3                              [6/24][m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mdspace-xmlui[0;1m ---[m
+[[1;34mINFO[m] Deleting /opt/dspace-6.3-src-release/dspace-xmlui/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-java)[m @ [36mdspace-xmlui[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-versions)[m @ [36mdspace-xmlui[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mdspace-xmlui[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 28 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.5.1:compile[m [1m(default-compile)[m @ [36mdspace-xmlui[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 399 source files to /opt/dspace-6.3-src-release/dspace-xmlui/target/classes
+[[1;34mINFO[m] /opt/dspace-6.3-src-release/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect/statisticsElasticSearch/ElasticSearchStatsViewer.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /opt/dspace-6.3-src-release/dspace-xmlui/src/main/java/org/dspace/app/xmlui/aspect/statisticsElasticSearch/ElasticSearchStatsViewer.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /opt/dspace-6.3-src-release/dspace-xmlui/src/main/java/org/dspace/app/xmlui/objectmanager/ItemAdapter.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /opt/dspace-6.3-src-release/dspace-xmlui/src/main/java/org/dspace/app/xmlui/objectmanager/ItemAdapter.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mdspace-xmlui[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.5.1:testCompile[m [1m(default-testCompile)[m @ [36mdspace-xmlui[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36mdspace-xmlui[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.6:war[m [1m(default-war)[m @ [36mdspace-xmlui[0;1m ---[m
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [dspace-xmlui] in [/opt/dspace-6.3-src-release/dspace-xmlui/target/dspace-xmlui-6.3]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp resources [/opt/dspace-6.3-src-release/dspace-xmlui/src/main/webapp]
+[[1;34mINFO[m] Webapp assembled in [387 msecs]
+[[1;34mINFO[m] Building war: /opt/dspace-6.3-src-release/dspace-xmlui/target/dspace-xmlui-6.3.war
+[[1;34mINFO[m] Packaging classes
+[[1;34mINFO[m] Building jar: /opt/dspace-6.3-src-release/dspace-xmlui/target/dspace-xmlui-6.3-classes.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.dspace:dspace-xmlui-mirage2[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding DSpace XML-UI Mirage2 Theme 6.3                          [7/24][m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mdspace-xmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] Deleting /opt/dspace-6.3-src-release/dspace-xmlui-mirage2/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-java)[m @ [36mdspace-xmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-versions)[m @ [36mdspace-xmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mdspace-xmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /opt/dspace-6.3-src-release/dspace-xmlui-mirage2/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.5.1:compile[m [1m(default-compile)[m @ [36mdspace-xmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mdspace-xmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.5.1:testCompile[m [1m(default-testCompile)[m @ [36mdspace-xmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36mdspace-xmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.6:war[m [1m(default-war)[m @ [36mdspace-xmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [dspace-xmlui-mirage2] in [/opt/dspace-6.3-src-release/dspace-xmlui-mirage2/target/dspace-xmlui-mirage2-6.3]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp webResources [/opt/dspace-6.3-src-release/dspace-xmlui-mirage2/src/main/webapp] to [/opt/dspace-6.3-src-release/dspace-xmlui-mirage2/target/dspace-xmlui-mirage2-6.3]
+[[1;34mINFO[m] Copying webapp resources [/opt/dspace-6.3-src-release/dspace-xmlui-mirage2/src/main/webapp]
+[[1;34mINFO[m] Webapp assembled in [27 msecs]
+[[1;34mINFO[m] Building war: /opt/dspace-6.3-src-release/dspace-xmlui-mirage2/target/dspace-xmlui-mirage2-6.3.war
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.dspace.modules:xmlui-mirage2[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding DSpace XML-UI Mirage2 Theme :: Local Customisations 6.3  [8/24][m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mxmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] Deleting /opt/dspace-6.3-src-release/dspace/modules/xmlui-mirage2/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-java)[m @ [36mxmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce-versions)[m @ [36mxmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(default)[m @ [36mxmlui-mirage2[0;1m ---[m
+[[1;33mWARNING[m] Parameter tasks is deprecated, use target instead
+[[1;34mINFO[m] Executing tasks
+
+main:
+     [echo] PATH=/home/ubuntu/.nvm/versions/node/v16.6.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.rvm/bin:/home/ubuntu/.rvm/bin
+     [echo] GEM_PATH=${env.GEM_PATH}
+     [echo] GEM_HOME=${env.GEM_HOME}
+     [echo] mirage2.deps.included=false
+     [echo] grunt.color.scheme=classic_mirage_color_scheme
+     [echo] grunt.environment=prod
+     [echo] source=/opt/dspace-6.3-src-release/dspace/modules/xmlui-mirage2/src/main/webapp/themes/
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:unpack-dependencies[m [1m(unpack-dependencies)[m @ [36mxmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] Unpacking /opt/dspace-6.3-src-release/dspace-xmlui-mirage2/target/dspace-xmlui-mirage2-6.3.war to /opt/dspace-6.3-src-release/dspace/modules/xmlui-mirage2/target/mirage2-source-extracted with includes "" and excludes "WEB-INF/**,META-INF/**"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mxmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /opt/dspace-6.3-src-release/dspace/modules/xmlui-mirage2/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:copy-resources[m [1m(default)[m @ [36mxmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.5.1:compile[m [1m(default-compile)[m @ [36mxmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mxmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.5.1:testCompile[m [1m(default-testCompile)[m @ [36mxmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.19.1:test[m [1m(default-test)[m @ [36mxmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32miterator-maven-plugin:0.3:iterator[m [1m(default)[m @ [36mxmlui-mirage2[0;1m ---[m
+[[1;34mINFO[m] ------ (Mirage2) org.apache.maven.plugins:maven-resources-plugin:2.7:copy-resources
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 134 resources
+[[1;34mINFO[m] ------ (Mirage2) org.apache.maven.plugins:maven-resources-plugin:2.7:copy-resources
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] ------ (Mirage2) org.codehaus.mojo:exec-maven-plugin:1.4.0:exec
+
+> Mirage2@0.1.2 postinstall
+> bower install
+
+bower bootstrap-sass-official#3.3.0           cached https://github.com/twbs/bootstrap-sass.git#3.3.0
+bower bootstrap-sass-official#3.3.0         validate 3.3.0 against https://github.com/twbs/bootstrap-sass.git#3.3.0
+bower jquery#~1.10.2                          cached https://github.com/jquery/jquery-dist.git#1.10.2
+bower jquery#~1.10.2                        validate 1.10.2 against https://github.com/jquery/jquery-dist.git#~1.10.2
+bower modernizr#2.8.3                         cached https://github.com/Modernizr/Modernizr.git#2.8.3
+bower modernizr#2.8.3                       validate 2.8.3 against https://github.com/Modernizr/Modernizr.git#2.8.3
+bower jquery-ui#1.10.3                        cached https://github.com/components/jqueryui.git#1.10.3
+bower jquery-ui#1.10.3                      validate 1.10.3 against https://github.com/components/jqueryui.git#1.10.3
+bower handlebars#4.0.0                        cached https://github.com/components/handlebars.js.git#4.0.0
+bower handlebars#4.0.0                      validate 4.0.0 against https://github.com/components/handlebars.js.git#4.0.0
+bower jqueryuibootstrap#4f3772cd37b898f456c0126c4b44178ce8d4aad7           cached https://github.com/addyosmani/jquery-ui-bootstrap.git#4f3772cd37
+bower jqueryuibootstrap#4f3772cd37b898f456c0126c4b44178ce8d4aad7         validate 4f3772cd37 against https://github.com/addyosmani/jquery-ui-bootstrap.git#4f3772cd37b898f456c0126c4b44178ce8d4aad7
+bower respond#1.4.2                                                        cached https://github.com/scottjehl/Respond.git#1.4.2
+bower respond#1.4.2                                                      validate 1.4.2 against https://github.com/scottjehl/Respond.git#1.4.2
+bower html5shiv#3.7.2                                                      cached https://github.com/aFarkas/html5shiv.git#3.7.2
+bower html5shiv#3.7.2                                                    validate 3.7.2 against https://github.com/aFarkas/html5shiv.git#3.7.2
+bower holderjs#2.4.1                                                       cached https://github.com/imsky/holder.git#2.4.1
+bower holderjs#2.4.1                                                     validate 2.4.1 against https://github.com/imsky/holder.git#2.4.1
+bower datatables#1.10.3                                                    cached https://github.com/DataTables/DataTables.git#1.10.3
+bower datatables#1.10.3                                                  validate 1.10.3 against https://github.com/DataTables/DataTables.git#1.10.3
+bower jquery#>=1.6                                                         cached https://github.com/jquery/jquery-dist.git#3.6.0
+bower jquery#>=1.6                                                       validate 3.6.0 against https://github.com/jquery/jquery-dist.git#>=1.6
+bower jquery#>= 1.9.0                                                      cached https://github.com/jquery/jquery-dist.git#3.6.0
+bower jquery#>= 1.9.0                                                    validate 3.6.0 against https://github.com/jquery/jquery-dist.git#>= 1.9.0
+bower jqueryuibootstrap#4f3772cd37b898f456c0126c4b44178ce8d4aad7          install jqueryuibootstrap#4f3772cd37
+bower jquery-ui#1.10.3                                                    install jquery-ui#1.10.3
+bower bootstrap-sass-official#3.3.0                                       install bootstrap-sass-official#3.3.0
+bower jquery#~1.10.2                                                      install jquery#1.10.2
+bower handlebars#4.0.0                                                    install handlebars#4.0.0
+bower modernizr#2.8.3                                                     install modernizr#2.8.3
+bower html5shiv#3.7.2                                                     install html5shiv#3.7.2
+bower holderjs#2.4.1                                                      install holderjs#2.4.1
+bower respond#1.4.2                                                       install respond#1.4.2
+bower datatables#1.10.3                                                   install datatables#1.10.3
+
+jqueryuibootstrap#4f3772cd37 vendor/jqueryuibootstrap
+
+jquery-ui#1.10.3 vendor/jquery-ui
+└── jquery#1.10.2
+
+bootstrap-sass-official#3.3.0 vendor/bootstrap-sass-official
+└── jquery#1.10.2
+
+jquery#1.10.2 vendor/jquery
+
+handlebars#4.0.0 vendor/handlebars
+
+modernizr#2.8.3 vendor/modernizr
+
+html5shiv#3.7.2 vendor/html5shiv
+
+holderjs#2.4.1 vendor/holderjs
+
+respond#1.4.2 vendor/respond
+
+datatables#1.10.3 vendor/datatables
+└── jquery#1.10.2
+
+added 200 packages, and audited 201 packages in 7s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+12 vulnerabilities (2 low, 1 moderate, 8 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[[1;34mINFO[m] ------ (Mirage2) org.codehaus.mojo:exec-maven-plugin:1.4.0:exec
+Running "copy:classic_mirage_color_scheme" (copy) task
+Copied 1 file
+
+Running "compass:prod" (compass) task
+Warning: Command failed: compass --version
+/bin/sh: 1: compass: not found
+ Use --force to continue.
+
+Aborted due to warnings.
+
+
+Execution Time (2021-08-24 01:24:04 UTC-0)
+loading tasks                 119ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 84%
+copy:classic_...color_scheme    8ms  ▇▇ 6%
+compass:prod                   15ms  ▇▇▇ 11%
+Total 142ms
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for DSpace Parent Project 6.3:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] DSpace Parent Project .............................. [1;32mSUCCESS[m [  0.551 s]
+[[1;34mINFO[m] DSpace Services Framework :: API and Implementation  [1;32mSUCCESS[m [  2.412 s]
+[[1;34mINFO[m] DSpace Kernel :: API and Implementation ............ [1;32mSUCCESS[m [  8.125 s]
+[[1;34mINFO[m] DSpace Addon Modules ............................... [1;32mSUCCESS[m [  0.005 s]
+[[1;34mINFO[m] DSpace Kernel :: Additions and Local Customizations  [1;32mSUCCESS[m [  0.238 s]
+[[1;34mINFO[m] DSpace XML-UI (Manakin) ............................ [1;32mSUCCESS[m [  4.592 s]
+[[1;34mINFO[m] DSpace XML-UI Mirage2 Theme ........................ [1;32mSUCCESS[m [  0.078 s]
+[[1;34mINFO[m] DSpace XML-UI Mirage2 Theme :: Local Customisations  [1;31mFAILURE[m [  9.446 s]
+[[1;34mINFO[m] DSpace XML-UI (Manakin) :: Local Customizations .... [1;33mSKIPPED[m
+[[1;34mINFO[m] DSpace JSP-UI ...................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] DSpace JSP-UI :: Local Customizations .............. [1;33mSKIPPED[m
+[[1;34mINFO[m] DSpace RDF ......................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] DSpace RDF :: Local Customizations ................. [1;33mSKIPPED[m
+[[1;34mINFO[m] DSpace REST :: API and Implementation .............. [1;33mSKIPPED[m
+[[1;34mINFO[m] DSpace REST :: Local Customizations ................ [1;33mSKIPPED[m
+[[1;34mINFO[m] DSpace SWORD ....................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] DSpace SWORD :: Local Customizations ............... [1;33mSKIPPED[m
+[[1;34mINFO[m] DSpace SWORD v2 .................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] DSpace SWORD v2 :: Local Customizations ............ [1;33mSKIPPED[m
+[[1;34mINFO[m] Apache Solr Webapp ................................. [1;33mSKIPPED[m
+[[1;34mINFO[m] DSpace SOLR :: Local Customizations ................ [1;33mSKIPPED[m
+[[1;34mINFO[m] DSpace OAI-PMH ..................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] DSpace OAI-PMH :: Local Customizations ............. [1;33mSKIPPED[m
+[[1;34mINFO[m] DSpace Assembly and Configuration .................. [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  25.864 s
+[[1;34mINFO[m] Finished at: 2021-08-24T01:24:04Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32mcom.soebes.maven.plugins:iterator-maven-plugin:0.3:iterator[m [1m(default)[m on project [36mxmlui-mirage2[m: [1;31mCommand execution failed.[m: Process exited with an error: 6 (Exit value: 6) -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <args> -rf :xmlui-mirage2[m
