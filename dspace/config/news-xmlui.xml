@@ -7,7 +7,7 @@
 </div>
 <div id="file.news.div.news" n="news" rend="primary">
 <head>Important links:</head>
-<p>- Browse and search tutorial in the repository in this <xref target="http://digital-library.laccei.org/docs/Browse-and-search_Tutorial-LACCEI.pdf">link.</xref></p>
+<p>- Tutorial to browse and search the repository: <xref target="http://digital-library.laccei.org/docs/Browse-and-search_Tutorial-LACCEI.pdf">link.</xref></p>
 <p>- Institutional policies can be reviewed at this <xref rend="facet" target="http://digital-library.laccei.org/docs/Institutional-policies_LACCEI.pdf">link</xref></p>
 <p>- The official LACCEI website is: <xref target="https://laccei.org/" rend="_blank">here</xref></p>
 </div>
