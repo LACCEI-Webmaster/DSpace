@@ -701,9 +701,11 @@
                 <div class="row">
                     <hr/>
                     <div class="col-xs-7 col-sm-8">
+                        <div>Support by <a href="http://www.dspace.org/" target="_blank">DSpace software</a>.</div>
                         <div>
-                            <a href="http://www.dspace.org/" target="_blank">DSpace software</a> copyright&#160;&#169;&#160;2002-2022&#160; powered by <a href="http://www.laccei.org/" target="_blank">LACCEI Inc.</a>
+                            <a>Copyright&#160;&#169;&#160;2002-2022&#160;.</a>                                                                                    
                         </div>
+                        <div>Powered by <a href="http://www.laccei.org/" target="_blank">LACCEI Inc.</a></div>
                         <div class="hidden-print">
                             <a>
                                 <xsl:attribute name="href">
