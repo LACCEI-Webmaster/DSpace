@@ -874,10 +874,12 @@
         <xsl:call-template name="addJavascript-google-analytics" />
     </xsl:template>
 
-    <xsl:text>
+
+
+    <xsl:template name="addJavascript-google-analyticsURL">
         &lt;script async src="https://www.googletagmanager.com/gtag/js?id=G-XSX38LHDDK"&gt;&#160;&lt;/script&gt;
-    </xsl:text>
-<!--  	  <script ></script>-->        
+    </xsl:template>
+
     <xsl:template name="addJavascript-google-analytics">
         <!-- Add a google analytics script if the key is present -->
 
