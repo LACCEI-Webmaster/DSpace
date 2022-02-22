@@ -703,9 +703,9 @@
                     <div class="col-xs-7 col-sm-8">
                         <div>Support by <a href="http://www.dspace.org/" target="_blank">DSpace software</a>.</div>
                         <div>
-                            <a>Copyright&#160;&#169;&#160;2002-2022&#160;.</a>                                                                                    
+                            Copyright&#160;&#169;&#160;2002-2022&#160;. Powered by <a href="http://www.laccei.org/" target="_blank">LACCEI Inc.</a>                                                                                    
                         </div>
-                        <div>Powered by <a href="http://www.laccei.org/" target="_blank">LACCEI Inc.</a></div>
+                        
                         <div class="hidden-print">
                             <a>
                                 <xsl:attribute name="href">
@@ -883,7 +883,7 @@
                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
                 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-                ga('create', '</xsl:text><xsl:value-of select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='google'][@qualifier='analytics']"/><xsl:text>', '</xsl:text><xsl:value-of select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='request'][@qualifier='serverName']"/><xsl:text>');
+                ga('create', '</xsl:text><xsl:value-of select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='google'][@qualifier='analytics']"/><xsl:text>', 'auto');
                 ga('send', 'pageview');
             </xsl:text></script>
         </xsl:if>
