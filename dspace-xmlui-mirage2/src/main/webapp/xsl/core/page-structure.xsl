@@ -871,13 +871,14 @@
             <xsl:call-template name="choiceLookupPopUpSetup"/>
         </xsl:if>
 
+        <xsl:call-template name="addJavascript-google-analyticsURL" />
         <xsl:call-template name="addJavascript-google-analytics" />
     </xsl:template>
 
 
 
     <xsl:template name="addJavascript-google-analyticsURL">
-        &lt;script async src="https://www.googletagmanager.com/gtag/js?id=G-XSX38LHDDK"&gt;&#160;&lt;/script&gt;
+        &lt;script async src="https://www.googletagmanager.com/gtag/js?id=G-XSX38LHDDK"&gt;&lt;/script&gt;
     </xsl:template>
 
     <xsl:template name="addJavascript-google-analytics">
