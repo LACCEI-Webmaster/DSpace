@@ -879,7 +879,7 @@
 
         <xsl:if test="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='google'][@qualifier='analytics']">
             <script><xsl:text>
-        		<script async src="https://www.googletagmanager.com/gtag/js?id=G-XSX38LHDDK"></script>            
+        		<script async="1" src="https://www.googletagmanager.com/gtag/js?id=G-XSX38LHDDK"></script>            
     		</xsl:text></script>
             <script><xsl:text>
 				  window.dataLayer = window.dataLayer || [];
