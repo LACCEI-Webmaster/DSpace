@@ -874,12 +874,16 @@
         <xsl:call-template name="addJavascript-google-analytics" />
     </xsl:template>
 
+    <xsl:text>
+        &lt;script async src="https://www.googletagmanager.com/gtag/js?id=G-XSX38LHDDK"&gt;&#160;&lt;/script&gt;
+    </xsl:text>
+<!--  	  <script ></script>-->        
     <xsl:template name="addJavascript-google-analytics">
         <!-- Add a google analytics script if the key is present -->
 
         <xsl:if test="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='google'][@qualifier='analytics']">            
             <script><xsl:text>
-<!--            	  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XSX38LHDDK"></script>-->
+
 <!--
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
