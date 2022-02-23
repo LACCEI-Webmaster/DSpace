@@ -878,7 +878,9 @@
 
 
     <xsl:template name="addJavascript-google-analyticsURL">
-        &lt;script async src="https://www.googletagmanager.com/gtag/js?id=G-XSX38LHDDK"&gt;&lt;/script&gt;
+        
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-XSX38LHDDK"></script>
+        
     </xsl:template>
 
     <xsl:template name="addJavascript-google-analytics">
